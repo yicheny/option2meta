@@ -1,0 +1,20 @@
+{
+  "name": "option2meta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "option2meta": "./bin/option2meta",
+    "o2m": "./bin/option2meta"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "colors": "^1.4.0",
+    "minimist": "^1.2.5"
+  },
+  "author": "ylf",
+  "license": "ISC"
+}

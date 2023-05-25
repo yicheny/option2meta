@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+'use strict';
+
+const main = require('../lib/index')
+
+try {
+    main();
+} catch (e) {
+    console.log(`option2meta执行报错：${e.message}`)
+    process.exit(1);
+}
