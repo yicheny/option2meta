@@ -1,0 +1,4 @@
+{
+  "optionPath": "./options/option.js",
+  "metaPath": "./options/meta.ts"
+}

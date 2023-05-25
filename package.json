@@ -8,7 +8,8 @@
     "o2m": "./bin/option2meta"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:build":"o2m --build ./test/configs/.o2m.config.json"
   },
   "dependencies": {
     "archiver": "^5.3.1",
