@@ -9,7 +9,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test:build":"o2m --build ./test/configs/.o2m.config.json"
+    "test:build json":"o2m --build ./test/configs/.o2m.config.json",
+    "test:build js":"o2m --build ./test/configs/.o2m.config.js"
   },
   "dependencies": {
     "archiver": "^5.3.1",
