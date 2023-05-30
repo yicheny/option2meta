@@ -10,7 +10,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "test:build json":"o2m --build ./test/configs/.o2m.config.json",
-    "test:build js":"o2m --build ./test/configs/.o2m.config.js"
+    "test:build js":"o2m --build ./test/configs/.o2m.config.js",
+    "pub": "npm publish --registry https://registry.npmjs.org"
   },
   "dependencies": {
     "archiver": "^5.3.1",
