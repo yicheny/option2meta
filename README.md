@@ -60,16 +60,18 @@ module.exports = {
     //是否格式化
     "format": false,
     //配置路径
-    "optionPath": "../options/option.js",
+    "optionPath": "../options/option.js", //支持.js .json .xlsx .xls
     //meta.ts文件生成路径
     "metaPath": "../metas/meta.ts",
     //模板文件路径
     "templatePath": "../templates/template.ts",
+    //通过接口处理
+    "url": 'http://www.example.com/function/importmaterial',
 }
 ```
 
 下面依此说明每个配置的意义：
 
 # 后续支持的功能
-1. 根据`excel`文件生成配置
-2. 支持通过接口获取`json`
+1. [x] 根据`excel`文件生成配置
+2. [x] 支持通过接口获取`json`

@@ -8,14 +8,18 @@
     "o2m": "./bin/option2meta"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "test:build json":"o2m --build ./test/configs/.o2m.config.json",
-    "test:build js":"o2m --build ./test/configs/.o2m.config.js",
+    "test:help": "o2m --help",
+    "test:version": "o2m --version",
+    "test:build json": "o2m --build ./test/configs/.o2m.config.json",
+    "test:build js": "o2m --build ./test/configs/.o2m.config.js",
+    "test:build excel": "o2m --build ./test/configs/.o2m-excel.config.js",
     "pub": "npm publish --registry https://registry.npmjs.org"
   },
   "dependencies": {
     "archiver": "^5.3.1",
+    "axios": "^1.4.0",
     "colors": "^1.4.0",
+    "formstream": "^1.2.0",
     "minimist": "^1.2.5"
   },
   "author": "ylf",
