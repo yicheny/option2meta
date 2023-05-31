@@ -13,7 +13,10 @@
     "test:build json": "o2m --build ./test/configs/.o2m.config.json",
     "test:build js": "o2m --build ./test/configs/.o2m.config.js",
     "test:build excel": "o2m --build ./test/configs/.o2m-excel.config.js",
-    "pub": "npm publish --registry https://registry.npmjs.org"
+    "pub": "npm publish --registry https://registry.npmjs.org",
+    "pub:patch": "npm version patch && npm run pub",
+    "pub:minor": "npm version minor && npm run pub",
+    "pub:major": "npm version major && npm run pub"
   },
   "dependencies": {
     "archiver": "^5.3.1",
