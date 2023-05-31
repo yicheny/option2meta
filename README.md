@@ -67,6 +67,8 @@ module.exports = {
     "templatePath": "../templates/template.ts",
     //通过接口处理
     "url": 'http://www.example.com/function/importmaterial',
+    //组件名称--可选，默认BizFormInput
+    "componentName":"TestComponent",
 }
 ```
 
